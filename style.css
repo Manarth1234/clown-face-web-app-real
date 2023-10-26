@@ -1,0 +1,22 @@
+h2 {
+    font-size: 25px !important;
+}
+.btn-success {
+    color:orangered;
+    font-family: cursive;
+}
+.btn-success:hover {
+    background-color: orangered;
+    font-family: fantasy;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 100px yellow;}
+}
